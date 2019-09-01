@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/dist/",
+    "sourceMap": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2015",
+      "es2016"
+    ],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true
+  },
+  "include": [
+    "./types/**/*",
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

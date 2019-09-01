@@ -1,0 +1,12 @@
+@import './fonts.scss';
+
+:global {
+  a:hover,
+  a:hover {
+    text-decoration: none!important;
+  }
+  .select-none {
+    user-select: none;
+    cursor: default;
+  }
+}
